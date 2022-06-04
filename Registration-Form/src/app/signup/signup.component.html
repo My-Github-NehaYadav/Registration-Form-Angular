@@ -1,0 +1,22 @@
+<div class="container-signup">
+  <div class="row">
+    <div class="col-md-6">
+      <form class="form-container">
+        <h1 class="h1-container">Register Your Account</h1>
+        <div class="table-body">
+          <p>Username</p>
+          <p><input type="text" v-model="username" placeholder="username"/></p>
+          <p>Email</p>
+          <p><input type="text" v-model="email" placeholder="email"/></p>
+          <p>Password</p>
+          <p><input type="password" v-model="password" placeholder="password"/></p>
+          <p>Phone_number</p>
+          <p><input type="text" v-model="phone_number" placeholder="phone_number"/></p>
+          <p>
+            <button class="btn btn-primary" v-on:click="reg()">SignUp</button>
+          </p>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
